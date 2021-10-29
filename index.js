@@ -27,7 +27,7 @@ async function run (){
 run().catch(console.dir);
 
 app.get('/', (req, res) => {
-    res.send('Ema Jonh Server Is Running');
+    res.send('Travel time Server Is Running');
 })
 
 app.listen(port, () => {
