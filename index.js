@@ -75,6 +75,9 @@ run().catch(console.dir);
 app.get('/', (req, res) => {
     res.send('Travel time Server Is Running');
 })
+app.get('/hello', (req, res) => {
+    res.send('ubdate here');
+})
 
 app.listen(port, () => {
     console.log('server runnig at port', port);
